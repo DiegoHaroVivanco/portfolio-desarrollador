@@ -41,7 +41,7 @@ const CoverParticles = () =>{
                             },
                             onHover: {
                                 enable: true,
-                                mode: "repulse",
+                                mode: "grab",
                             },
                         },
                         modes: {
@@ -79,7 +79,7 @@ const CoverParticles = () =>{
                             density: {
                                 enable: true,
                             },
-                            value: 80,
+                            value: 85,
                         },
                         opacity: {
                             value: 0.5,
