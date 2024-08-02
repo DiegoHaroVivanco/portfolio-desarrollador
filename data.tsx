@@ -1,31 +1,29 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Github, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
+        logo: <Github size={30} strokeWidth={1} />,
+        title: "Github",
         src: "#!",
     },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
+        title: "Linkedin",
         src: "#!",
     },
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 4,
         logo: <Rss size={30} strokeWidth={1} />,
+        title: "CV",
         src: "#!",
     },
-    {
-        id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
-    },
+    // {
+    //     id: 4,
+    //     logo: <Youtube size={30} strokeWidth={1} />,
+    //     src: "#!",
+    // },
 ];
 
 
