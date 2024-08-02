@@ -12,7 +12,7 @@ const Header = () =>{
                         {/* para que sea responsive el text-center */}
                         <h1 className="my-3 text-4xl font-bold text-center md:text-left"> 
                             Diego
-                            <span className="text-secondary">
+                            <span className="ml-2 text-secondary">
                                 Haro
                             </span>
                         
