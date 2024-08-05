@@ -6,6 +6,9 @@ html, body{
   color: #fff;
   background: #1f1934;
 }
+body{
+  overflow: hidden;
+}
 
 main{
   background: #393447;
