@@ -1,6 +1,7 @@
 "use client"
 import Avatar from "@/components/avatar";
 import ContainerPage from "@/components/container";
+import CounterServices from "@/components/counter-services";
 import TransitionPage from "@/components/transition-page";
 
 const PageAboutMe = () => {
@@ -16,6 +17,9 @@ const PageAboutMe = () => {
 
                     <span className="font-bold text-secondary">Experiencia profesional</span>
                 </h1>
+
+                <CounterServices/>
+
             </ContainerPage>
         </>
     )
