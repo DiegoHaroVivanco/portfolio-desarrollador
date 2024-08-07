@@ -2,6 +2,7 @@
 import Avatar from "@/components/avatar";
 import ContainerPage from "@/components/container";
 import CounterServices from "@/components/counter-services";
+import TimeLine from "@/components/time-line";
 import TransitionPage from "@/components/transition-page";
 
 const PageAboutMe = () => {
@@ -19,7 +20,7 @@ const PageAboutMe = () => {
                 </h1>
 
                 <CounterServices/>
-
+                <TimeLine/>
             </ContainerPage>
         </>
     )
