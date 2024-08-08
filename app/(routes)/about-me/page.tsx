@@ -2,6 +2,7 @@
 import Avatar from "@/components/avatar";
 import ContainerPage from "@/components/container";
 import CounterServices from "@/components/counter-services";
+import CoverParticles from "@/components/cover-particles";
 import TimeLine from "@/components/time-line";
 import TransitionPage from "@/components/transition-page";
 
@@ -10,6 +11,7 @@ const PageAboutMe = () => {
     return (
         <>
             <TransitionPage/>
+            <CoverParticles />
             <ContainerPage>
 
                 <Avatar />
