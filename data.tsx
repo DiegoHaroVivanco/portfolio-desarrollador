@@ -95,10 +95,20 @@ export const dataCounter = [
     {
         id: 0,
         endCounter: 1,
-        text: "Años de experiencia",
+        text: "Año de experiencia en desarrollo e investigación",
         lineRight: true,
         lineRightMobile: true,
-    }
+        
+    },
+    {
+        id: 1,
+        endCounter: 2,
+        text: "Años de docencia en materias de programación ",
+        lineRight: false,
+        lineRightMobile: false,
+        
+    },
+
 ];
 
 export const serviceData = [
